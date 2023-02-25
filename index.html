@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup</title>
+    <link href='https://css.gg/close.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup">
+        <i class="gg-close" onclick="CloseWindow()">X</i>
+        <h3></h3>
+        <p></p>
+    </div>
+    <header>
+        <h2>Qatar World Cup 2022</h2>
+        <ul>
+        <li><a href="#" class="btn1">Home</a></li>
+        <li><a href="#Team" class="btn1">Teams</a></li>
+        <li><a href="#" class="btn1">About Us</a></li>
+        <li><a href="#" class="btn1">Contact</a></li>
+    </ul></header>
+    <section id="sec1">
+        <div class="image"><img src="./fifa-world-cup-22.jpg" alt="World Cup"></div>
+        <div class="teams" id="tem">
+            <h3>Support Your Team</h3>
+            <p>Please Select Your favorite team from below:</p>
+            <select name="Team" id="Team" >
+                <option value="Select">Select</option>
+                <option value="Brazil">Brazil</option>
+                <option value="France">France</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Germany">Germany</option>
+            </select>
+            <input id="Buton" type="submit" name="button" value="Submit" onclick="getVal()">
+        </div>
+    </section>
+    <div class="black"></div>
+</body>
+<script src="script.js">
+</script>
+</html>
